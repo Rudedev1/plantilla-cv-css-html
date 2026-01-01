@@ -1,0 +1,95 @@
+html {
+    height: 297mm;
+    width: 210mm;
+    margin: auto;
+    padding: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+p, h3, h4, summary, ul, li {
+    color: rgb(0, 53, 97);
+}
+
+h2 {
+    color:rgb(0, 51, 128);
+}
+
+.main-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 32%;
+    margin: 10px;
+    font-size:1.5em;
+    color:rgb(0, 51, 128)  
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    width: 70%;
+    font-size:2em;
+    color:rgb(0, 51, 128)
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(105, 195, 255, 0.664);
+    background: oklch(0.8205 0.107 222.35 / 66.4%);
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.column-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background: #f1f1f1;
+}
+
+.left-box {
+    width: 26%;
+    box-sizing: content-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgb(87, 188, 255);
+    background: oklch(0.8205 0.107 222.35);
+}
+
+.left-box a{
+    word-break: break-word;
+}
+
+.center-box {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer-box {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.interactive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
